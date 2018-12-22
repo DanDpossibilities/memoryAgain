@@ -1,0 +1,51 @@
+/* they call * the wildcard selector, 
+I believe it applies to all until other definitions are made */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.card {
+    margin: 1%;
+    padding: 0.5%;    
+    background: blue;  
+    width: 12%;
+    border: 0.5em solid black;
+    border-radius: 5%;  
+}
+
+#Game_Name {
+    font-family: "Lulo Clean", courier new, verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10vw;
+    color: blue;
+}
+
+#Game_Field {
+    margin: 0;
+    background-clip: border-box;
+    background-color: rgb(0, 255, 0);
+    border: 1em solid black; /*this is shorthand size, style, color*/
+    border-radius: 20% 20% 5% 5% / 30% 30% 10% 10%; 
+    /*a,b,c,d/e,f,g,h   tl,tr,br,bl/lt,rt,rb,lb 
+    key words: top, left, right,bottom*/
+}
+
+#container {
+    
+}
+
+#0{
+    margin: 1%;
+    padding: 0.5%;    
+    background: blue;  
+    width: 12%;
+    border: 0.5em solid black;
+    border-radius: 5%; 
+}
